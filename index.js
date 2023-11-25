@@ -30,3 +30,4 @@ app.delete('/api/items', (req, res) => {
     items = []; // Clear the items array
     res.send('Items cleared successfully');
   });
+
